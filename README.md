@@ -1,12 +1,15 @@
 
-# Chicken Disease Classification Project
+# Text Summarizer Project
 
-Chicken coccidiosis is a common intestinal disease caused by protozoan parasites from the genus Eimeria. Seven species of this genus can affect chickens, each with different pathogenic characteristics and targeting a specific intestinal location. The parasites rapidly multiply, damaging the intestinal lining, preventing chickens from absorbing nutrients from their food. Vaccination, preventative medication, and good flock management practices can help control the disease. 
+Text Summarizer takes a large document/paragraph and then uses an NLP model to generate a short paragraph.
 
-**The disease is a major menace to the global poultry industry and hampers chicken's productivity and welfare.**
+This is a complete end-to-end Natural Language Processing machine learning project. APIs are developed for text summarization and training the model.
 
-The aim of this machine learning project is to identify the disease of the chicken based on the fecal image of the chicken. The model can determine whether the chicken is infected with Coccidiosis or not, by just analysing the image of the fecal matter of the chicken.
+## 📷 Demo
+![Screenshot 2023-12-25 184236](https://github.com/krishanwalia30/Text-Summarizer/assets/101003187/b1b3a403-bef0-493b-9eca-018358e78666)
 
+## 🎆 Screen Recording
+https://github.com/krishanwalia30/Text-Summarizer/assets/101003187/0d59bded-c444-48dc-bd0b-1e27673f0626
 
 
 
