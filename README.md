@@ -16,4 +16,6 @@
 - Transformers
 - what is rouge
 - HUgging Face
-- 
+- gen_kwargs in python
+- FAST API
+- uvicorn
