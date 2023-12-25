@@ -22,7 +22,7 @@ The workflow defines the way the components and pipeline is constructed in the p
 6. Update the components
 7. Update the pipeline
 8. Update the main.py
-9. Update the dvc.yaml
+9. Develop app.py
 
 
 
