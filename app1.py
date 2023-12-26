@@ -8,17 +8,19 @@ def main():
     st.title('Text Summarization')
 
     text = st.text_input(label='Enter the Full Content')
-    
-    with st.spinner(text="Hey, hope you are doing good!"):
-        time.sleep(15)
-        with st.spinner(text="Yeah, lemme read it for you"):
-            time.sleep(25)
-            with st.spinner(text="Almost Done!"):
-                if st.button("Generate Summary"):
-                    obj = PredictionPipeline()
-                    summary = obj.predict(text)
-                    st.write(summary)
-    
+    if text:
+        if st.button("Generate Summary"):
+            with st.spinner(text='Okay, text received by the 🔙🔚, \n bots working to generate summary for you.'):
+
+                obj = PredictionPipeline()
+                summary = obj.predict(text)
+                final_sum = ""
+                for i in summary:
+                    if i in ['<','n',">"]:
+                        final_sum +=""
+                    else:
+                        final_sum += i
+                st.code(final_sum)
     
 
 if __name__ == "__main__":
