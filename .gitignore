@@ -160,5 +160,7 @@ cython_debug/
 #.idea/
 
 
-
-artifacts/*
+artifacts/data_ingestion/*
+artifacts/data_transformation/*
+artifacts/data_validation/*
+artifacts/model_trainer/pegasus-samsum-model
